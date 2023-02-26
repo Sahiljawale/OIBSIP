@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-container {
+  text-align: center;
+  background-size: cover;
+  height: 100vh;
+  background-color: lightgreen;
+  
+}
+
+.hyper-link {
+  margin: 10px;
+  border-width: 2px;
+}
+
+.top {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+header {
+  padding: 20px;
+  background-color: transparent;
+}
+
+header h1 {
+  color: skyblue;
+  font-family: "roboto";
+  font-size: 35px;
+  font-weight: bold;
+}
+
+header p {
+  color: grey;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "roboto";
+}
+
+
+.container {
+  display: inline-block;
+  width: 500px;
+  height: 420px;
+  padding: 20px;
+  background-color: aqua;
+  
+  border: 3px solid black;
+  border-radius: 16px;
+
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  font-family: sans-serif;
+
+}
+
+input {
+  padding: 5px;
+  margin: 10px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 2px;
+  border-color: black;
+  transition: .3s border-color;
+}
+
+#givenscale {
+  height: 35px;
+  width: 120px;
+  padding: 5px;
+  font-size: 16px;
+  font-family: "roboto";
+  font-weight: bold;
+  border-radius: 6px;
+  border-color: black;
+  border-style: solid;
+}
+
+#tempscale {
+  height: 35px;
+  width: 120px;
+  font-size: 16px;
+  font-family: "roboto";
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 6px;
+  border-color: black;
+  border-style: solid;
+}
+
+#temp {
+  height: 35px;
+  width: 60px;
+  font-size: 18px;
+  font-family: "roboto";
+  font-weight: bold;
+  border-radius: 6px;
+  border-color: black;
+}
+
+
+
+#submitbtn {
+  height: 2.5rem;
+  width: 7rem;
+  font-family: "roboto";
+  font-weight: bold;
+  border-style: solid;
+  color: black;
+  border-radius: 6px;
+  border-color: blueviolet;
+  font-size: 20px;
+}
+
+#resultContainer {
+  margin: 15px;
+  padding: 15px;
+  background-color: whitesmoke;
+  font-size: 20px;
+  border-radius: 6px;
+  border-color: whitesmoke;
+  border: white;
+  border-style: solid;
+  font-family: "roboto";
+  font-weight: bold;
+}
